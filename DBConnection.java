@@ -10,6 +10,6 @@ public class DBConnection {
         } catch (Exception e) {
             System.out.println("Connection Error: " + e);
             return null;
-        }
+        } 
     }
 }
