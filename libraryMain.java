@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LibraryMain {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         int choice;
 
         do {
