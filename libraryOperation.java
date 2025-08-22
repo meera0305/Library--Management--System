@@ -33,11 +33,11 @@ public class LibraryOperations {
         }
     }
 
-    public static void deleteBook(int id) {
+    public static void deleteBook(int id) { 
         try (Connection con = DBConnection.getConnection()) {
-            String sql = "DELETE FROM books WHERE id = ?";
+            String sql = "DELETE FROM books WHERE id = ?"; 
             PreparedStatement pst = con.prepareStatement(sql);
-            pst.setInt(1, id);
+            pst.setInt(1, id);  
             int rows = pst.executeUpdate();
             if (rows > 0)
                 System.out.println("Book deleted!");
