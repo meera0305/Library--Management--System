@@ -7,7 +7,7 @@ public class LibraryMain {
         Scanner sc = new Scanner(System.in); 
         int choice;
 
-        do {
+        do {  
             System.out.println("\n--- Library Menu ---");
             System.out.println("1. Add Book");
             System.out.println("2. View All Books");
